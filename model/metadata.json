@@ -1,0 +1,82 @@
+{
+  "best_model": "Random Forest",
+  "test_accuracy": 0.975,
+  "crops": [
+    "apple",
+    "banana",
+    "blackgram",
+    "chickpea",
+    "coconut",
+    "coffee",
+    "cotton",
+    "grapes",
+    "jute",
+    "kidneybeans",
+    "lentil",
+    "maize",
+    "mango",
+    "mothbeans",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pigeonpeas",
+    "pomegranate",
+    "rice",
+    "watermelon"
+  ],
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "n_classes": 22,
+  "model_results": {
+    "Random Forest": {
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.975,
+      "cv_mean": 0.9677,
+      "cv_std": 0.0062,
+      "f1_score": 0.9747
+    },
+    "Gradient Boosting": {
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.9614,
+      "cv_mean": 0.9495,
+      "cv_std": 0.0074,
+      "f1_score": 0.9613
+    },
+    "Decision Tree": {
+      "train_accuracy": 0.9784,
+      "test_accuracy": 0.9273,
+      "cv_mean": 0.9223,
+      "cv_std": 0.013,
+      "f1_score": 0.9255
+    },
+    "KNN": {
+      "train_accuracy": 0.954,
+      "test_accuracy": 0.9455,
+      "cv_mean": 0.9373,
+      "cv_std": 0.0112,
+      "f1_score": 0.9449
+    },
+    "SVM": {
+      "train_accuracy": 0.9801,
+      "test_accuracy": 0.9614,
+      "cv_mean": 0.9573,
+      "cv_std": 0.0082,
+      "f1_score": 0.9614
+    },
+    "Naive Bayes": {
+      "train_accuracy": 0.9665,
+      "test_accuracy": 0.9614,
+      "cv_mean": 0.9655,
+      "cv_std": 0.0046,
+      "f1_score": 0.9609
+    }
+  }
+}
