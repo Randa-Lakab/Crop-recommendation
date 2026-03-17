@@ -1,4 +1,4 @@
-# 🌾 CropSense — Intelligent Crop Recommendation System
+#  CropSense-Intelligent Crop Recommendation System
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.0-black?logo=flask)](https://flask.palletsprojects.com)
