@@ -133,4 +133,4 @@ MIT License - see [LICENSE](LICENSE)
 
 **Randa LAKAB** · [LinkedIn](https://www.linkedin.com/in/randa-lakab-4b9125389/) · [GitHub](https://github.com/Randa-Lakab)
 
-> Built as a Data Science portfolio project demonstrating end-to-end ML deployment with Flask.
+> Built as a Data Science project demonstrating end-to-end ML deployment with Flask.
