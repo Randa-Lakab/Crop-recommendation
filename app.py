@@ -38,10 +38,10 @@ def load_artifacts():
 
 try:
     model, scaler, encoder, meta = load_artifacts()
-    print(f"✅  Model loaded: {meta['best_model']} ({meta['test_accuracy']}% accuracy)")
+    print(f" Model loaded: {meta['best_model']} ({meta['test_accuracy']}% accuracy)")
 except FileNotFoundError:
     model = scaler = encoder = meta = None
-    print("⚠️   Model artifacts not found — run `python model/train_model.py` first.")
+    print("  Model artifacts not found — run `python model/train_model.py` first.")
 
 
 # ── Crop Info ──────────────────────────────────────────────────────────────────
