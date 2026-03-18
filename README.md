@@ -55,7 +55,7 @@ crop-recommendation/
 
 ```bash
 # 1. Clone & enter directory
-git clone https://github.com/YOUR_USERNAME/crop-recommendation.git
+git clone https://github.com/Randa-Lakab/Crop-recommendation.git
 cd crop-recommendation
 
 # 2. Create virtual environment
