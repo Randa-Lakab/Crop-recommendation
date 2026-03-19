@@ -155,7 +155,7 @@ def train(save_dir: str = "model") -> None:
     with open(os.path.join(save_dir, "model_meta.json"), "w") as f:
         json.dump(meta, f, indent=2)
 
-    print("💾  Artifacts saved:")
+    print(" Artifacts saved:")
     for fn in ["model.pkl", "scaler.pkl", "encoder.pkl", "model_meta.json", "crop_data.csv"]:
         print(f"    model/{fn}")
 
