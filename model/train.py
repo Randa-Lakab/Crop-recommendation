@@ -40,7 +40,7 @@ TARGET   = "label"
 
 # ═══════════════════════════════════════════════════════════════════════════
 # 1.  DATA GENERATION  (used when real CSV is absent)
-# ═══════════════════════════════════════════════════════════════════════════
+
 def generate_synthetic_data(n_samples: int = 2200) -> pd.DataFrame:
     """Generate realistic synthetic crop data."""
     np.random.seed(42)
