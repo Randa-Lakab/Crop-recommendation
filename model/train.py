@@ -183,14 +183,13 @@ def train():
     with open(os.path.join(MODEL_DIR, "metadata.json"), "w") as f:
         json.dump(meta, f, indent=2)
 
-    print("\n📦  Saved: model.pkl · scaler.pkl · encoder.pkl · metadata.json")
-    print("🖼   Plots saved to static/plots/")
+    print("\n  Saved: model.pkl · scaler.pkl · encoder.pkl · metadata.json")
+    print("    Plots saved to static/plots/")
     return meta
-
 
 # ═══════════════════════════════════════════════════════════════════════════
 # 3.  PLOT HELPERS
-# ═══════════════════════════════════════════════════════════════════════════
+
 def _plot_model_comparison(results: dict):
     names   = list(results.keys())
     accs    = [v["test_accuracy"] for v in results.values()]
